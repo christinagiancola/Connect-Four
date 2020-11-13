@@ -1,0 +1,27 @@
+.grid {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  height: 120px;
+  width: 140px;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.player-one {
+  background-color: red;
+  border-radius: 10px;
+}
+
+.player-two {
+  background-color: blue;
+  border-radius: 10px;
+}
+
+.validNextMove {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
